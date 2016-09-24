@@ -1,4 +1,4 @@
-# Foodtastic-e-foodstore-website #
+# Foodtastic-e-foodstore-website :computer: #
 ## Description ##
 This is a full stack Java Web Application which utilized the core feautures of Spring framework, Bootstrap. 
 - Guest users can browse all the products, but they can not add to their shopping cart, the system will ask them to login.
