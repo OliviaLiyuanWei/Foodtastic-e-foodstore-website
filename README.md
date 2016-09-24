@@ -5,6 +5,10 @@ This is a full stack Java Web Application which utilized the core feautures of <
 - Registered customers can browse and search all pruducts, add products to shopping-cart, and check out their selected products in the cart
 - Administrator can manage product inventory and customer information
 
+## Motivation ##
+The main purpose of doing this project is to help myself understand Java Spring Framework and how to create a sophisticated backend system
+> **Special thanks:** [Le Deng](https://github.com/ldengweb)
+
 ## Screenshots :bar_chart: ##
 
 ### :one: Landing Page ###
@@ -26,6 +30,7 @@ Once customer review and correct their information, there will be a receipt of t
 ## Installation ##
 1. Import as Maven project
 2. You need to create your own MySQL database, and change the username and password of MySQL in `applicationContext.xml`
+3. When you add JDBC connector, hibernate will create tables for you in your database, but you still need to add `admin` in your Authorities and Users tables. In Authorities table, change 'ROLE_USER' to 'ROLE_ADMIN'
 ```  
 <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
     <property name="driverClassName" value="com.mysql.jdbc.Driver" />
@@ -34,10 +39,15 @@ Once customer review and correct their information, there will be a receipt of t
     <property name="password" value="xxxyourPasswordxxx" />
 </bean>
 ```
-3. When you add JDBC connector, hibernate will create tables for you in your database, but you still need to add `admin` in your Authorities and Users tables. In Authorities table, change 'ROLE_USER' to 'ROLE_ADMIN'
-
-
 ## Tech Stack ##
 - Front End: HTML/HTML5, CSS/CSS3, JavaScript, JSP, JQuery, Bootstrap
 - Back End: Spring MVC, Spring Security, Spring Webflow
 - Database: Spring Data, Hibernate, JPA, MySQL
+
+## API Reference ##
+1. [Bootstrap](http://getbootstrap.com/components/)
+2. [Spring](http://projects.spring.io/spring-framework/)
+
+## License ##
+See the [LICENSE](https://github.com/OliviaLiyuanWei/Foodtastic-e-foodstore-website/blob/master/LICENSE.md) file for license rights and limitations (MIT).
+
