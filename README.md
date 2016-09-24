@@ -14,25 +14,25 @@ The landing page utilizes the Bootstrap Carousel Template
 If you are a guest user, you should register as a customer; if you are already registered, you can login and enjoy shopping!
 ![Register and Login](https://github.com/OliviaLiyuanWei/Foodtastic-e-foodstore-website/blob/master/img-capture/foodtastic001.jpg)
 ### :three: Product Page and Detail Page ###
-As a customer, you can browse products in the product page, when you click ``Detail`` button on one product, you will go to the detail page of this product
+As a customer, you can browse products in the product page, when you click `Detail` button on one product, you will go to the detail page of this product
 ![Product Page and Detail Page](https://github.com/OliviaLiyuanWei/Foodtastic-e-foodstore-website/blob/master/img-capture/foodtastic002.jpg)
 ### :four: Shopping Cart ###
-Customer can view their cart and decide to continue shopping, checkout or remove some products; When customer click ``Checkout`` button, he/she will review their customer info, shipping address and billing address
+Customer can view their cart and decide to continue shopping, checkout or remove some products; When customer click `Checkout` button, he/she will review their customer info, shipping address and billing address
 ![Shopping Cart](https://github.com/OliviaLiyuanWei/Foodtastic-e-foodstore-website/blob/master/img-capture/foodtastic003.jpg)
 ### :five: Checkout ###
-Once customer review and correct their information, there will be a receipt of this order, they can click ``Submit`` button
+Once customer review and correct their information, there will be a receipt of this order, they can click `Submit` button
 ![Checkout](https://github.com/OliviaLiyuanWei/Foodtastic-e-foodstore-website/blob/master/img-capture/foodtastic004.jpg)
 
 ## Installation ##
 1. Import as Maven project
-2. You need to create your own MySQL database, and change the username and password of MySQL in ``applicationContext.xml``
+2. You need to create your own MySQL database, and change the username and password of MySQL in `applicationContext.xml`
 ```  
-      <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-          <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-          <property name="url" value="jdbc:mysql://localhost:3306/Foodtastic" />
-          <property name="username" value="root" />
-          <property name="password" value="19910131" />
-      </bean>
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+    <property name="url" value="jdbc:mysql://localhost:3306/xxxyourDatabaseNamexxx" />
+    <property name="username" value="xxxyourUserNamexxx" />
+    <property name="password" value="xxxyourPasswordxxx" />
+</bean>
 ```
 
 ## Tech Stack ##
