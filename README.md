@@ -5,7 +5,7 @@ This is a full stack Java Web Application which utilized the core feautures of <
 - Registered customers can browse and search all pruducts, add products to shopping-cart, and check out their selected products in the cart
 - Administrator can manage product inventory and customer information
 
-## Motivation ##
+## Motivation :pencil2: ##
 The main purpose of doing this project is to help myself understand Java Spring Framework and how to create a sophisticated backend system
 > **Special thanks:** [Le Deng](https://github.com/ldengweb)
 
@@ -27,7 +27,7 @@ Customer can view their cart and decide to continue shopping, checkout or remove
 Once customer review and correct their information, there will be a receipt of this order, they can click `Submit` button
 ![Checkout](https://github.com/OliviaLiyuanWei/Foodtastic-e-foodstore-website/blob/master/img-capture/foodtastic004.jpg)
 
-## Installation ##
+## Installation :wrench: ##
 1. Import as Maven project
 2. You need to create your own MySQL database, and change the username and password of MySQL in `applicationContext.xml`
 3. When you add JDBC connector, hibernate will create tables for you in your database, but you still need to add `admin` in your Authorities and Users tables. In Authorities table, change 'ROLE_USER' to 'ROLE_ADMIN'
@@ -39,15 +39,15 @@ Once customer review and correct their information, there will be a receipt of t
     <property name="password" value="xxxyourPasswordxxx" />
 </bean>
 ```
-## Tech Stack ##
+## Tech Stack:computer: ##
 - Front End: HTML/HTML5, CSS/CSS3, JavaScript, JSP, JQuery, Bootstrap
 - Back End: Spring MVC, Spring Security, Spring Webflow
 - Database: Spring Data, Hibernate, JPA, MySQL
 
-## API Reference ##
+## API Reference :clipboard: ##
 1. [Bootstrap](http://getbootstrap.com/components/)
 2. [Spring](http://projects.spring.io/spring-framework/)
 
-## License ##
+## License :memo: ##
 See the [LICENSE](https://github.com/OliviaLiyuanWei/Foodtastic-e-foodstore-website/blob/master/LICENSE.md) file for license rights and limitations (MIT).
 
