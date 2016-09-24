@@ -34,6 +34,8 @@ Once customer review and correct their information, there will be a receipt of t
     <property name="password" value="xxxyourPasswordxxx" />
 </bean>
 ```
+3. When you add JDBC connector, hibernate will create tables for you in your database, but you still need to add `admin` in your Authorities and Users tables. In Authorities table, change 'ROLE_USER' to 'ROLE_ADMIN'
+
 
 ## Tech Stack ##
 - Front End: HTML/HTML5, CSS/CSS3, JavaScript, JSP, JQuery, Bootstrap
