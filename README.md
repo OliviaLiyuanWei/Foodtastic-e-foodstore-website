@@ -23,6 +23,11 @@ Customer can view their cart and decide to continue shopping, checkout or remove
 Once customer review and correct their information, there will be a receipt of this order, they can click ``Submit`` button
 ![Checkout](https://github.com/OliviaLiyuanWei/Foodtastic-e-foodstore-website/blob/master/img-capture/foodtastic004.jpg)
 
+## Installation ##
+1. Import as Maven project
+2. You need to create your own MySQL database, and change the username and password of MySQL in ``applicationContext.xml``
+
+
 ## Tech Stack ##
 - Front End: HTML/HTML5, CSS/CSS3, JavaScript, JSP, JQuery, Bootstrap
 - Back End: Spring MVC, Spring Security, Spring Webflow
