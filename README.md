@@ -39,7 +39,7 @@ Once customer review and correct their information, there will be a receipt of t
     <property name="password" value="xxxyourPasswordxxx" />
 </bean>
 ```
-## Tech Stack:computer: ##
+## Tech Stack :computer: ##
 - Front End: HTML/HTML5, CSS/CSS3, JavaScript, JSP, JQuery, Bootstrap
 - Back End: Spring MVC, Spring Security, Spring Webflow
 - Database: Spring Data, Hibernate, JPA, MySQL
