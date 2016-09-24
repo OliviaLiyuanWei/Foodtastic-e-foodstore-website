@@ -8,7 +8,7 @@ This is a full stack Java Web Application which utilized the core feautures of S
 ## Screenshots ##
 
 - Landing Page
-#### The landing page utilizes the Bootstrap Carousel Template
+  > The landing page utilizes the Bootstrap Carousel Template
 ![landing page](https://github.com/OliviaLiyuanWei/Foodtastic-e-foodstore-website/blob/master/img-capture/foodtastic1.JPG)
 - Register and Login
 If you are a guest user, you should register as a customer; if you are already registered, you can login and enjoy shopping!
