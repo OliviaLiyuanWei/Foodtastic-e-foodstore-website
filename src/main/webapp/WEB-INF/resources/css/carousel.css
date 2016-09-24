@@ -1,0 +1,287 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background: whitesmoke;
+
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.brandyellow {
+  font-family: 'Righteous', cursive;
+  color: #ffc425 !important;
+  font-size: 26px;
+}
+.brandyellow:hover {
+  color: #ffdb7c !important;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 300px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  top: 70px;
+  bottom: auto;
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 300px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  height: 300px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-md-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-md-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 768px) {
+
+  .featurette-heading {
+    margin-top: 120px;
+  }
+
+
+  .carousel {
+    height: 300px;
+    margin-bottom: 60px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 10;
+    top: 70px;
+    bottom: auto;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    height: 300px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 768px !important;
+    height: 480px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  /*.navbar-wrapper {*/
+  /*margin-top: 20px;*/
+  /*}*/
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+
+  .carousel {
+    height: 400px;
+    margin-bottom: 60px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 10;
+    top: 100px;
+    bottom: auto;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    height: 400px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 400px;
+  }
+
+  .home-image {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+
+}
+
+@media (min-width: 992px) {
+
+
+  .carousel {
+    height: 500px;
+    margin-bottom: 60px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 10;
+    top: 170px;
+    bottom: auto;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    height: 500px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+  }
+
+  .home-image {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+
+@media (min-width: 1260px) {
+
+  .carousel {
+    height: 700px;
+    margin-bottom: 60px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 10;
+    top: 300px;
+    bottom: auto;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    height: 700px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 700px;
+  }
+
+  .home-image {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .nodisplay {
+    display: none !important;
+  }
+
+}
+
+
+
+
+
+
+
