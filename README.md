@@ -26,6 +26,12 @@ Once customer review and correct their information, there will be a receipt of t
 ## Installation ##
 1. Import as Maven project
 2. You need to create your own MySQL database, and change the username and password of MySQL in ``applicationContext.xml``
+> ```  <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+          <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+          <property name="url" value="jdbc:mysql://localhost:3306/Foodtastic" />
+          <property name="username" value="root" />
+          <property name="password" value="19910131" />
+      </bean>
 
 
 ## Tech Stack ##
